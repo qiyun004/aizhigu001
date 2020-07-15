@@ -1,0 +1,3343 @@
+---------------------------------------------------------------
+[ 2020-07-13T13:49:45+08:00 ] 127.0.0.1 GET www.oscshop2.com/cart
+[运行时间：0.146150s] [吞吐率：6.84req/s] [内存消耗：1,531.89kb] [文件加载：45]
+[ info ] [ LANG ] D:\phpstudy2018\PHPTutorial\WWW\oscshop2\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'member',
+    1 => 'cart',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=luq0j1ucbsvmb9pmu493lvr5og; Hm_lvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1594286757; Hm_lpvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1594286929',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.oscshop2.com/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.oscshop2.com',
+)
+[ info ] [ PARAM ] array (
+  '/cart' => '',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] osc\member\controller\Cart->index[ D:\phpstudy2018\PHPTutorial\WWW\oscshop2\oscshop\member\controller\Cart.php ]
+[ info ] [ VIEW ] ./themes/default/member/cart\index.html [ array (
+  0 => 'top_nav',
+  1 => 'goods',
+  2 => 'total_price',
+  3 => 'weight',
+  4 => 'SEO',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-13T13:49:51+08:00 ] 127.0.0.1 GET www.oscshop2.com/login
+[运行时间：0.063660s] [吞吐率：15.71req/s] [内存消耗：1,454.87kb] [文件加载：43]
+[ info ] [ LANG ] D:\phpstudy2018\PHPTutorial\WWW\oscshop2\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'member',
+    1 => 'login',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=luq0j1ucbsvmb9pmu493lvr5og; Hm_lvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1594286757; Hm_lpvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1594619386',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.oscshop2.com/cart',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.oscshop2.com',
+)
+[ info ] [ PARAM ] array (
+  '/login' => '',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] osc\member\controller\Login->login[ D:\phpstudy2018\PHPTutorial\WWW\oscshop2\oscshop\member\controller\Login.php ]
+[ info ] [ VIEW ] ./themes/default/member/login\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-13T13:49:59+08:00 ] 127.0.0.1 GET www.oscshop2.com/admin
+[运行时间：0.166339s] [吞吐率：6.01req/s] [内存消耗：1,437.66kb] [文件加载：43]
+[ info ] [ LANG ] D:\phpstudy2018\PHPTutorial\WWW\oscshop2\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=luq0j1ucbsvmb9pmu493lvr5og; Hm_lvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1594286757; Hm_lpvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1594619386',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.oscshop2.com',
+)
+[ info ] [ PARAM ] array (
+  '/admin' => '',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-13T13:49:59+08:00 ] 127.0.0.1 GET www.oscshop2.com/admin/Login/login
+[运行时间：0.089031s] [吞吐率：11.23req/s] [内存消耗：1,532.96kb] [文件加载：43]
+[ info ] [ LANG ] D:\phpstudy2018\PHPTutorial\WWW\oscshop2\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Login',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=luq0j1ucbsvmb9pmu493lvr5og; Hm_lvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1594286757; Hm_lpvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1594619386',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.oscshop2.com',
+)
+[ info ] [ PARAM ] array (
+  '/admin/Login/login' => '',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] osc\admin\controller\Login->login[ D:\phpstudy2018\PHPTutorial\WWW\oscshop2\oscshop\admin\controller\Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] ./oscshop/admin\view\public\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-13T13:50:09+08:00 ] 127.0.0.1 POST www.oscshop2.com/admin/Login/login
+[运行时间：0.132833s] [吞吐率：7.53req/s] [内存消耗：1,962.13kb] [文件加载：47]
+[ info ] [ LANG ] D:\phpstudy2018\PHPTutorial\WWW\oscshop2\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Login',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=luq0j1ucbsvmb9pmu493lvr5og; Hm_lvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1594286757; Hm_lpvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1594619386',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.oscshop2.com/admin/Login/login',
+  'origin' => 'http://www.oscshop2.com',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '29',
+  'connection' => 'close',
+  'host' => 'www.oscshop2.com',
+)
+[ info ] [ PARAM ] array (
+  '/admin/Login/login' => '',
+  'username' => 'admin',
+  'password' => 'admin',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] osc\admin\controller\Login->login[ D:\phpstudy2018\PHPTutorial\WWW\oscshop2\oscshop\admin\controller\Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-13T13:52:44+08:00 ] 127.0.0.1 POST www.oscshop2.com/admin/Login/login
+[运行时间：0.311865s] [吞吐率：3.21req/s] [内存消耗：2,041.65kb] [文件加载：49]
+[ info ] [ LANG ] D:\phpstudy2018\PHPTutorial\WWW\oscshop2\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Login',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=luq0j1ucbsvmb9pmu493lvr5og; Hm_lvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1594286757; Hm_lpvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1594619386',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.oscshop2.com/admin/Login/login',
+  'origin' => 'http://www.oscshop2.com',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '30',
+  'connection' => 'close',
+  'host' => 'www.oscshop2.com',
+)
+[ info ] [ PARAM ] array (
+  '/admin/Login/login' => '',
+  'username' => 'admin',
+  'password' => '123456',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] osc\admin\controller\Login->login[ D:\phpstudy2018\PHPTutorial\WWW\oscshop2\oscshop\admin\controller\Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-13T13:52:44+08:00 ] 127.0.0.1 GET www.oscshop2.com/admin/Index/index
+[运行时间：0.195124s] [吞吐率：5.12req/s] [内存消耗：2,489.65kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpstudy2018\PHPTutorial\WWW\oscshop2\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=luq0j1ucbsvmb9pmu493lvr5og; Hm_lvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1594286757; Hm_lpvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1594619386',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.oscshop2.com/admin/Login/login',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.oscshop2.com',
+)
+[ info ] [ PARAM ] array (
+  '/admin/Index/index' => '',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] osc\admin\controller\Index->index[ D:\phpstudy2018\PHPTutorial\WWW\oscshop2\oscshop\admin\controller\Index.php ]
+[ info ] [ VIEW ] ./oscshop/admin\view\index\index.html [ array (
+  0 => 'admin_menu',
+  1 => 'total_order',
+  2 => 'today_order',
+  3 => 'total_money',
+  4 => 'today_money',
+  5 => 'user_action_total',
+  6 => 'today_user_action',
+  7 => 'today_member',
+  8 => 'member_count',
+  9 => 'user_action',
+  10 => 'uc_empty',
+  11 => 'order_list',
+  12 => 'empty',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-13T13:53:12+08:00 ] 127.0.0.1 GET www.oscshop2.com/admin/goods/index
+[运行时间：0.265514s] [吞吐率：3.77req/s] [内存消耗：2,534.34kb] [文件加载：56]
+[ info ] [ LANG ] D:\phpstudy2018\PHPTutorial\WWW\oscshop2\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=luq0j1ucbsvmb9pmu493lvr5og; Hm_lvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1594286757; Hm_lpvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1594619386',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.oscshop2.com/admin/Index/index',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.oscshop2.com',
+)
+[ info ] [ PARAM ] array (
+  '/admin/goods/index' => '',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] osc\admin\controller\Goods->index[ D:\phpstudy2018\PHPTutorial\WWW\oscshop2\oscshop\admin\controller\Goods.php ]
+[ info ] [ VIEW ] ./oscshop/admin\view\goods\index.html [ array (
+  0 => 'admin_menu',
+  1 => 'breadcrumb1',
+  2 => 'breadcrumb2',
+  3 => 'empty',
+  4 => 'category',
+  5 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-13T13:53:21+08:00 ] 127.0.0.1 GET www.oscshop2.com/
+[运行时间：0.067448s] [吞吐率：14.83req/s] [内存消耗：1,490.66kb] [文件加载：44]
+[ info ] [ LANG ] D:\phpstudy2018\PHPTutorial\WWW\oscshop2\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=luq0j1ucbsvmb9pmu493lvr5og; Hm_lvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1594286757; Hm_lpvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1594619386',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.oscshop2.com/admin/goods/index',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.oscshop2.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] osc\index\controller\Index->index[ D:\phpstudy2018\PHPTutorial\WWW\oscshop2\oscshop\index\controller\Index.php ]
+[ info ] [ VIEW ] ./themes/default/index/index\index.html [ array (
+  0 => 'top_nav',
+  1 => 'empty',
+  2 => 'list',
+  3 => 'SEO',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-13T13:53:35+08:00 ] 127.0.0.1 GET www.oscshop2.com/admin/settings/other
+[运行时间：0.210050s] [吞吐率：4.76req/s] [内存消耗：2,311.75kb] [文件加载：50]
+[ info ] [ LANG ] D:\phpstudy2018\PHPTutorial\WWW\oscshop2\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'settings',
+    2 => 'other',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=luq0j1ucbsvmb9pmu493lvr5og; Hm_lvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1594286757; Hm_lpvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1594619601',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.oscshop2.com/admin/goods/index',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.oscshop2.com',
+)
+[ info ] [ PARAM ] array (
+  '/admin/settings/other' => '',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] osc\admin\controller\Settings->other[ D:\phpstudy2018\PHPTutorial\WWW\oscshop2\oscshop\admin\controller\Settings.php ]
+[ info ] [ VIEW ] ./oscshop/admin\view\settings\other.html [ array (
+  0 => 'admin_menu',
+  1 => 'breadcrumb1',
+  2 => 'length',
+  3 => 'weight',
+  4 => 'order_status',
+  5 => 'member_auth_group',
+  6 => 'breadcrumb2',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-13T13:54:20+08:00 ] 127.0.0.1 GET www.oscshop2.com/member/order_status/index
+[运行时间：0.134006s] [吞吐率：7.46req/s] [内存消耗：2,351.95kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpstudy2018\PHPTutorial\WWW\oscshop2\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'member',
+    1 => 'order_status',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=luq0j1ucbsvmb9pmu493lvr5og; Hm_lvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1594286757; Hm_lpvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1594619601',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.oscshop2.com/admin/settings/other',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.oscshop2.com',
+)
+[ info ] [ PARAM ] array (
+  '/member/order_status/index' => '',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] osc\member\controller\OrderStatus->index[ D:\phpstudy2018\PHPTutorial\WWW\oscshop2\oscshop\member\controller\OrderStatus.php ]
+[ info ] [ VIEW ] ./themes/default/member/order_status\index.html [ array (
+  0 => 'admin_menu',
+  1 => 'breadcrumb1',
+  2 => 'breadcrumb2',
+  3 => 'empty',
+  4 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-13T13:54:22+08:00 ] 127.0.0.1 GET www.oscshop2.com/member/order_status/edit/id/1
+[运行时间：0.113305s] [吞吐率：8.83req/s] [内存消耗：2,282.18kb] [文件加载：51]
+[ info ] [ LANG ] D:\phpstudy2018\PHPTutorial\WWW\oscshop2\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'member',
+    1 => 'order_status',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=luq0j1ucbsvmb9pmu493lvr5og; Hm_lvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1594286757; Hm_lpvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1594619601',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.oscshop2.com/member/order_status/index',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.oscshop2.com',
+)
+[ info ] [ PARAM ] array (
+  '/member/order_status/edit/id/1' => '',
+  'id' => '1',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] osc\member\controller\OrderStatus->edit[ D:\phpstudy2018\PHPTutorial\WWW\oscshop2\oscshop\member\controller\OrderStatus.php ]
+[ info ] [ VIEW ] ./themes/default/member/order_status\edit.html [ array (
+  0 => 'admin_menu',
+  1 => 'breadcrumb1',
+  2 => 'breadcrumb2',
+  3 => 'crumbs',
+  4 => 'action',
+  5 => 'd',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-13T13:54:27+08:00 ] 127.0.0.1 GET www.oscshop2.com/member/order_status/index
+[运行时间：0.166984s] [吞吐率：5.99req/s] [内存消耗：2,206.24kb] [文件加载：53]
+[ info ] [ LANG ] D:\phpstudy2018\PHPTutorial\WWW\oscshop2\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'member',
+    1 => 'order_status',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=luq0j1ucbsvmb9pmu493lvr5og; Hm_lvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1594286757; Hm_lpvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1594619601',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.oscshop2.com/admin/settings/other',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.oscshop2.com',
+)
+[ info ] [ PARAM ] array (
+  '/member/order_status/index' => '',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] osc\member\controller\OrderStatus->index[ D:\phpstudy2018\PHPTutorial\WWW\oscshop2\oscshop\member\controller\OrderStatus.php ]
+[ info ] [ VIEW ] ./themes/default/member/order_status\index.html [ array (
+  0 => 'admin_menu',
+  1 => 'breadcrumb1',
+  2 => 'breadcrumb2',
+  3 => 'empty',
+  4 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-13T13:54:30+08:00 ] 127.0.0.1 GET www.oscshop2.com/admin/settings/other
+[运行时间：0.279658s] [吞吐率：3.58req/s] [内存消耗：2,084.84kb] [文件加载：48]
+[ info ] [ LANG ] D:\phpstudy2018\PHPTutorial\WWW\oscshop2\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'settings',
+    2 => 'other',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=luq0j1ucbsvmb9pmu493lvr5og; Hm_lvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1594286757; Hm_lpvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1594619601',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.oscshop2.com/admin/goods/index',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.oscshop2.com',
+)
+[ info ] [ PARAM ] array (
+  '/admin/settings/other' => '',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] osc\admin\controller\Settings->other[ D:\phpstudy2018\PHPTutorial\WWW\oscshop2\oscshop\admin\controller\Settings.php ]
+[ info ] [ VIEW ] ./oscshop/admin\view\settings\other.html [ array (
+  0 => 'admin_menu',
+  1 => 'breadcrumb1',
+  2 => 'length',
+  3 => 'weight',
+  4 => 'order_status',
+  5 => 'member_auth_group',
+  6 => 'breadcrumb2',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-13T13:54:33+08:00 ] 127.0.0.1 GET www.oscshop2.com/member/order_backend/index
+[运行时间：0.206643s] [吞吐率：4.84req/s] [内存消耗：2,482.36kb] [文件加载：56]
+[ info ] [ LANG ] D:\phpstudy2018\PHPTutorial\WWW\oscshop2\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'member',
+    1 => 'order_backend',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=luq0j1ucbsvmb9pmu493lvr5og; Hm_lvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1594286757; Hm_lpvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1594619601',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.oscshop2.com/admin/settings/other',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.oscshop2.com',
+)
+[ info ] [ PARAM ] array (
+  '/member/order_backend/index' => '',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] osc\member\controller\OrderBackend->index[ D:\phpstudy2018\PHPTutorial\WWW\oscshop2\oscshop\member\controller\OrderBackend.php ]
+[ info ] [ VIEW ] ./themes/default/member/order_backend\index.html [ array (
+  0 => 'admin_menu',
+  1 => 'breadcrumb1',
+  2 => 'breadcrumb2',
+  3 => 'status',
+  4 => 'list',
+  5 => 'empty',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-13T13:54:58+08:00 ] 127.0.0.1 GET www.oscshop2.com/admin/brand/index
+[运行时间：0.127549s] [吞吐率：7.84req/s] [内存消耗：2,354.06kb] [文件加载：54]
+[ info ] [ LANG ] D:\phpstudy2018\PHPTutorial\WWW\oscshop2\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'brand',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=luq0j1ucbsvmb9pmu493lvr5og; Hm_lvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1594286757; Hm_lpvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1594619601',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.oscshop2.com/member/order_backend/index',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.oscshop2.com',
+)
+[ info ] [ PARAM ] array (
+  '/admin/brand/index' => '',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] osc\admin\controller\Brand->index[ D:\phpstudy2018\PHPTutorial\WWW\oscshop2\oscshop\admin\controller\Brand.php ]
+[ info ] [ VIEW ] ./oscshop/admin\view\brand\index.html [ array (
+  0 => 'admin_menu',
+  1 => 'breadcrumb1',
+  2 => 'breadcrumb2',
+  3 => 'empty',
+  4 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-13T13:55:03+08:00 ] 127.0.0.1 GET www.oscshop2.com/admin/length_class/index
+[运行时间：0.180849s] [吞吐率：5.53req/s] [内存消耗：2,353.22kb] [文件加载：54]
+[ info ] [ LANG ] D:\phpstudy2018\PHPTutorial\WWW\oscshop2\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'length_class',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=luq0j1ucbsvmb9pmu493lvr5og; Hm_lvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1594286757; Hm_lpvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1594619601',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.oscshop2.com/admin/brand/index',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.oscshop2.com',
+)
+[ info ] [ PARAM ] array (
+  '/admin/length_class/index' => '',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] osc\admin\controller\LengthClass->index[ D:\phpstudy2018\PHPTutorial\WWW\oscshop2\oscshop\admin\controller\LengthClass.php ]
+[ info ] [ VIEW ] ./oscshop/admin\view\length_class\index.html [ array (
+  0 => 'admin_menu',
+  1 => 'breadcrumb1',
+  2 => 'breadcrumb2',
+  3 => 'empty',
+  4 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-13T13:55:07+08:00 ] 127.0.0.1 GET www.oscshop2.com/admin/weight_class/index
+[运行时间：0.131980s] [吞吐率：7.58req/s] [内存消耗：2,352.77kb] [文件加载：54]
+[ info ] [ LANG ] D:\phpstudy2018\PHPTutorial\WWW\oscshop2\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'weight_class',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=luq0j1ucbsvmb9pmu493lvr5og; Hm_lvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1594286757; Hm_lpvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1594619601',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.oscshop2.com/admin/length_class/index',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.oscshop2.com',
+)
+[ info ] [ PARAM ] array (
+  '/admin/weight_class/index' => '',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] osc\admin\controller\WeightClass->index[ D:\phpstudy2018\PHPTutorial\WWW\oscshop2\oscshop\admin\controller\WeightClass.php ]
+[ info ] [ VIEW ] ./oscshop/admin\view\weight_class\index.html [ array (
+  0 => 'admin_menu',
+  1 => 'breadcrumb1',
+  2 => 'breadcrumb2',
+  3 => 'empty',
+  4 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-13T13:55:09+08:00 ] 127.0.0.1 GET www.oscshop2.com/admin/attribute/index
+[运行时间：0.159139s] [吞吐率：6.28req/s] [内存消耗：2,421.14kb] [文件加载：56]
+[ info ] [ LANG ] D:\phpstudy2018\PHPTutorial\WWW\oscshop2\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'attribute',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=luq0j1ucbsvmb9pmu493lvr5og; Hm_lvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1594286757; Hm_lpvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1594619601',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.oscshop2.com/admin/weight_class/index',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.oscshop2.com',
+)
+[ info ] [ PARAM ] array (
+  '/admin/attribute/index' => '',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] osc\admin\controller\Attribute->index[ D:\phpstudy2018\PHPTutorial\WWW\oscshop2\oscshop\admin\controller\Attribute.php ]
+[ info ] [ VIEW ] ./oscshop/admin\view\attribute\index.html [ array (
+  0 => 'admin_menu',
+  1 => 'breadcrumb1',
+  2 => 'breadcrumb2',
+  3 => 'empty',
+  4 => 'list',
+  5 => 'category',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-13T13:55:12+08:00 ] 127.0.0.1 GET www.oscshop2.com/admin/Attribute/add
+[运行时间：0.157172s] [吞吐率：6.36req/s] [内存消耗：2,352.38kb] [文件加载：52]
+[ info ] [ LANG ] D:\phpstudy2018\PHPTutorial\WWW\oscshop2\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Attribute',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=luq0j1ucbsvmb9pmu493lvr5og; Hm_lvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1594286757; Hm_lpvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1594619601',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.oscshop2.com/admin/attribute/index',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.oscshop2.com',
+)
+[ info ] [ PARAM ] array (
+  '/admin/Attribute/add' => '',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] osc\admin\controller\Attribute->add[ D:\phpstudy2018\PHPTutorial\WWW\oscshop2\oscshop\admin\controller\Attribute.php ]
+[ info ] [ VIEW ] ./oscshop/admin\view\attribute\edit.html [ array (
+  0 => 'admin_menu',
+  1 => 'breadcrumb1',
+  2 => 'breadcrumb2',
+  3 => 'crumbs',
+  4 => 'category',
+  5 => 'action',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-13T13:55:17+08:00 ] 127.0.0.1 GET www.oscshop2.com/admin/option/index
+[运行时间：0.121825s] [吞吐率：8.21req/s] [内存消耗：2,366.67kb] [文件加载：54]
+[ info ] [ LANG ] D:\phpstudy2018\PHPTutorial\WWW\oscshop2\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'option',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=luq0j1ucbsvmb9pmu493lvr5og; Hm_lvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1594286757; Hm_lpvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1594619601',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.oscshop2.com/admin/Attribute/add',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.oscshop2.com',
+)
+[ info ] [ PARAM ] array (
+  '/admin/option/index' => '',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] osc\admin\controller\Option->index[ D:\phpstudy2018\PHPTutorial\WWW\oscshop2\oscshop\admin\controller\Option.php ]
+[ info ] [ VIEW ] ./oscshop/admin\view\option\index.html [ array (
+  0 => 'admin_menu',
+  1 => 'breadcrumb1',
+  2 => 'breadcrumb2',
+  3 => 'list',
+  4 => 'empty',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-13T13:55:22+08:00 ] 127.0.0.1 GET www.oscshop2.com/admin/category/index
+[运行时间：0.207112s] [吞吐率：4.83req/s] [内存消耗：2,384.27kb] [文件加载：54]
+[ info ] [ LANG ] D:\phpstudy2018\PHPTutorial\WWW\oscshop2\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'category',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=luq0j1ucbsvmb9pmu493lvr5og; Hm_lvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1594286757; Hm_lpvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1594619601',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.oscshop2.com/admin/option/index',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.oscshop2.com',
+)
+[ info ] [ PARAM ] array (
+  '/admin/category/index' => '',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] osc\admin\controller\Category->index[ D:\phpstudy2018\PHPTutorial\WWW\oscshop2\oscshop\admin\controller\Category.php ]
+[ info ] [ VIEW ] ./oscshop/admin\view\category\index.html [ array (
+  0 => 'admin_menu',
+  1 => 'breadcrumb1',
+  2 => 'breadcrumb2',
+  3 => 'empty',
+  4 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-13T13:55:38+08:00 ] 127.0.0.1 GET www.oscshop2.com/admin/module/index
+[运行时间：0.221149s] [吞吐率：4.52req/s] [内存消耗：2,368.61kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpstudy2018\PHPTutorial\WWW\oscshop2\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'module',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=luq0j1ucbsvmb9pmu493lvr5og; Hm_lvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1594286757; Hm_lpvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1594619601',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.oscshop2.com/admin/category/index',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.oscshop2.com',
+)
+[ info ] [ PARAM ] array (
+  '/admin/module/index' => '',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] osc\admin\controller\Module->index[ D:\phpstudy2018\PHPTutorial\WWW\oscshop2\oscshop\admin\controller\Module.php ]
+[ info ] [ VIEW ] ./oscshop/admin\view\module\index.html [ array (
+  0 => 'admin_menu',
+  1 => 'list',
+  2 => 'breadcrumb1',
+  3 => 'breadcrumb2',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-13T13:56:02+08:00 ] 127.0.0.1 GET www.oscshop2.com/admin/settings/other
+[运行时间：0.481295s] [吞吐率：2.08req/s] [内存消耗：2,155.22kb] [文件加载：48]
+[ info ] [ LANG ] D:\phpstudy2018\PHPTutorial\WWW\oscshop2\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'settings',
+    2 => 'other',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=luq0j1ucbsvmb9pmu493lvr5og; Hm_lvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1594286757; Hm_lpvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1594619601',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.oscshop2.com/admin/module/index',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.oscshop2.com',
+)
+[ info ] [ PARAM ] array (
+  '/admin/settings/other' => '',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] osc\admin\controller\Settings->other[ D:\phpstudy2018\PHPTutorial\WWW\oscshop2\oscshop\admin\controller\Settings.php ]
+[ info ] [ VIEW ] ./oscshop/admin\view\settings\other.html [ array (
+  0 => 'admin_menu',
+  1 => 'breadcrumb1',
+  2 => 'length',
+  3 => 'weight',
+  4 => 'order_status',
+  5 => 'member_auth_group',
+  6 => 'breadcrumb2',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-13T13:56:11+08:00 ] 127.0.0.1 GET www.oscshop2.com/admin/settings/general
+[运行时间：0.146797s] [吞吐率：6.81req/s] [内存消耗：2,327.05kb] [文件加载：50]
+[ info ] [ LANG ] D:\phpstudy2018\PHPTutorial\WWW\oscshop2\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'settings',
+    2 => 'general',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=luq0j1ucbsvmb9pmu493lvr5og; Hm_lvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1594286757; Hm_lpvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1594619601',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.oscshop2.com/admin/settings/other',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.oscshop2.com',
+)
+[ info ] [ PARAM ] array (
+  '/admin/settings/general' => '',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] osc\admin\controller\Settings->general[ D:\phpstudy2018\PHPTutorial\WWW\oscshop2\oscshop\admin\controller\Settings.php ]
+[ info ] [ VIEW ] ./oscshop/admin\view\settings\general.html [ array (
+  0 => 'admin_menu',
+  1 => 'breadcrumb1',
+  2 => 'breadcrumb2',
+  3 => 'common',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-13T13:56:12+08:00 ] 127.0.0.1 GET www.oscshop2.com/
+[运行时间：0.228393s] [吞吐率：4.38req/s] [内存消耗：2,162.81kb] [文件加载：50]
+[ info ] [ LANG ] D:\phpstudy2018\PHPTutorial\WWW\oscshop2\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=luq0j1ucbsvmb9pmu493lvr5og; Hm_lvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1594286757; Hm_lpvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1594619601',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.oscshop2.com/admin/settings/general',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.oscshop2.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] osc\index\controller\Index->index[ D:\phpstudy2018\PHPTutorial\WWW\oscshop2\oscshop\index\controller\Index.php ]
+[ info ] [ VIEW ] ./themes/default/index/index\index.html [ array (
+  0 => 'top_nav',
+  1 => 'empty',
+  2 => 'list',
+  3 => 'SEO',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-13T13:56:26+08:00 ] 127.0.0.1 GET www.oscshop2.com/admin/auth_manager/index
+[运行时间：0.133709s] [吞吐率：7.48req/s] [内存消耗：2,365.97kb] [文件加载：54]
+[ info ] [ LANG ] D:\phpstudy2018\PHPTutorial\WWW\oscshop2\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'auth_manager',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=luq0j1ucbsvmb9pmu493lvr5og; Hm_lvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1594286757; Hm_lpvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1594619601',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.oscshop2.com/admin/settings/general',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.oscshop2.com',
+)
+[ info ] [ PARAM ] array (
+  '/admin/auth_manager/index' => '',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] osc\admin\controller\AuthManager->index[ D:\phpstudy2018\PHPTutorial\WWW\oscshop2\oscshop\admin\controller\AuthManager.php ]
+[ info ] [ VIEW ] ./oscshop/admin\view\auth_manager\index.html [ array (
+  0 => 'admin_menu',
+  1 => 'breadcrumb1',
+  2 => 'breadcrumb2',
+  3 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-13T13:56:30+08:00 ] 127.0.0.1 GET www.oscshop2.com/admin/AuthManager/access/id/2
+[运行时间：0.143400s] [吞吐率：6.97req/s] [内存消耗：2,558.22kb] [文件加载：50]
+[ info ] [ LANG ] D:\phpstudy2018\PHPTutorial\WWW\oscshop2\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'AuthManager',
+    2 => 'access',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=luq0j1ucbsvmb9pmu493lvr5og; Hm_lvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1594286757; Hm_lpvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1594619601',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.oscshop2.com/admin/auth_manager/index',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.oscshop2.com',
+)
+[ info ] [ PARAM ] array (
+  '/admin/AuthManager/access/id/2' => '',
+  'id' => '2',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] osc\admin\controller\AuthManager->access[ D:\phpstudy2018\PHPTutorial\WWW\oscshop2\oscshop\admin\controller\AuthManager.php ]
+[ info ] [ VIEW ] ./oscshop/admin\view\auth_manager\access.html [ array (
+  0 => 'admin_menu',
+  1 => 'breadcrumb1',
+  2 => 'breadcrumb2',
+  3 => 'access_menu',
+  4 => 'rules',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-13T13:56:46+08:00 ] 127.0.0.1 POST www.oscshop2.com/admin/AuthManager/write_group
+[运行时间：5.158482s] [吞吐率：0.19req/s] [内存消耗：2,280.48kb] [文件加载：51]
+[ info ] [ LANG ] D:\phpstudy2018\PHPTutorial\WWW\oscshop2\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'AuthManager',
+    2 => 'write_group',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=luq0j1ucbsvmb9pmu493lvr5og; Hm_lvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1594286757; Hm_lpvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1594619601',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.oscshop2.com/admin/AuthManager/access/id/2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://www.oscshop2.com',
+  'cache-control' => 'max-age=0',
+  'content-length' => '2248',
+  'connection' => 'close',
+  'host' => 'www.oscshop2.com',
+)
+[ info ] [ PARAM ] array (
+  '/admin/AuthManager/write_group' => '',
+  'id' => '2',
+  'rules' => 
+  array (
+    0 => '28',
+    1 => '29',
+    2 => '140',
+    3 => '141',
+    4 => '142',
+    5 => '143',
+    6 => '144',
+    7 => '145',
+    8 => '146',
+    9 => '147',
+    10 => '148',
+    11 => '149',
+    12 => '151',
+    13 => '152',
+    14 => '66',
+    15 => '67',
+    16 => '68',
+    17 => '69',
+    18 => '19',
+    19 => '153',
+    20 => '70',
+    21 => '71',
+    22 => '72',
+    23 => '73',
+    24 => '48',
+    25 => '84',
+    26 => '85',
+    27 => '86',
+    28 => '87',
+    29 => '134',
+    30 => '154',
+    31 => '155',
+    32 => '156',
+    33 => '157',
+    34 => '158',
+    35 => '30',
+    36 => '75',
+    37 => '76',
+    38 => '77',
+    39 => '135',
+    40 => '159',
+    41 => '160',
+    42 => '161',
+    43 => '136',
+    44 => '162',
+    45 => '163',
+    46 => '164',
+    47 => '165',
+    48 => '129',
+    49 => '130',
+    50 => '166',
+    51 => '167',
+    52 => '168',
+    53 => '169',
+    54 => '131',
+    55 => '170',
+    56 => '171',
+    57 => '172',
+    58 => '173',
+    59 => '174',
+    60 => '175',
+    61 => '138',
+    62 => '176',
+    63 => '177',
+    64 => '178',
+    65 => '179',
+    66 => '180',
+    67 => '139',
+    68 => '181',
+    69 => '182',
+    70 => '206',
+    71 => '207',
+    72 => '208',
+    73 => '209',
+    74 => '137',
+    75 => '200',
+    76 => '201',
+    77 => '202',
+    78 => '203',
+    79 => '204',
+    80 => '205',
+    81 => '133',
+    82 => '183',
+    83 => '184',
+    84 => '13',
+    85 => '124',
+    86 => '186',
+    87 => '1',
+    88 => '210',
+    89 => '38',
+    90 => '113',
+    91 => '125',
+    92 => '187',
+    93 => '188',
+    94 => '189',
+    95 => '190',
+    96 => '191',
+    97 => '192',
+    98 => '126',
+    99 => '127',
+    100 => '193',
+    101 => '194',
+    102 => '195',
+    103 => '196',
+    104 => '46',
+    105 => '197',
+    106 => '198',
+    107 => '199',
+    108 => '2',
+    109 => '120',
+    110 => '121',
+    111 => '122',
+    112 => '123',
+    113 => '292',
+    114 => '293',
+    115 => '296',
+    116 => '297',
+    117 => '294',
+    118 => '295',
+    119 => '298',
+    120 => '299',
+    121 => '300',
+    122 => '301',
+    123 => '302',
+    124 => '303',
+    125 => '304',
+    126 => '305',
+    127 => '306',
+    128 => '307',
+    129 => '308',
+    130 => '309',
+    131 => '310',
+    132 => '311',
+    133 => '312',
+    134 => '313',
+    135 => '314',
+    136 => '315',
+    137 => '316',
+    138 => '317',
+    139 => '318',
+    140 => '57',
+    141 => '290',
+  ),
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] osc\admin\controller\AuthManager->write_group[ D:\phpstudy2018\PHPTutorial\WWW\oscshop2\oscshop\admin\controller\AuthManager.php ]
+[ info ] [ VIEW ] ./oscshop/common/view/public/success.tpl [ array (
+  0 => 'admin_menu',
+  1 => 'breadcrumb1',
+  2 => 'breadcrumb2',
+  3 => 'code',
+  4 => 'msg',
+  5 => 'data',
+  6 => 'url',
+  7 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-13T13:56:48+08:00 ] 127.0.0.1 GET www.oscshop2.com/admin/AuthManager/index
+[运行时间：0.111288s] [吞吐率：8.99req/s] [内存消耗：2,219.82kb] [文件加载：52]
+[ info ] [ LANG ] D:\phpstudy2018\PHPTutorial\WWW\oscshop2\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'AuthManager',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=luq0j1ucbsvmb9pmu493lvr5og; Hm_lvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1594286757; Hm_lpvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1594619601',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.oscshop2.com/admin/AuthManager/write_group',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.oscshop2.com',
+)
+[ info ] [ PARAM ] array (
+  '/admin/AuthManager/index' => '',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] osc\admin\controller\AuthManager->index[ D:\phpstudy2018\PHPTutorial\WWW\oscshop2\oscshop\admin\controller\AuthManager.php ]
+[ info ] [ VIEW ] ./oscshop/admin\view\auth_manager\index.html [ array (
+  0 => 'admin_menu',
+  1 => 'breadcrumb1',
+  2 => 'breadcrumb2',
+  3 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-13T13:56:53+08:00 ] 127.0.0.1 GET www.oscshop2.com/admin/user_action/index
+[运行时间：0.121315s] [吞吐率：8.24req/s] [内存消耗：2,352.50kb] [文件加载：54]
+[ info ] [ LANG ] D:\phpstudy2018\PHPTutorial\WWW\oscshop2\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'user_action',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=luq0j1ucbsvmb9pmu493lvr5og; Hm_lvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1594286757; Hm_lpvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1594619601',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.oscshop2.com/admin/AuthManager/index',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.oscshop2.com',
+)
+[ info ] [ PARAM ] array (
+  '/admin/user_action/index' => '',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] osc\admin\controller\UserAction->index[ D:\phpstudy2018\PHPTutorial\WWW\oscshop2\oscshop\admin\controller\UserAction.php ]
+[ info ] [ VIEW ] ./oscshop/admin\view\user_action\index.html [ array (
+  0 => 'admin_menu',
+  1 => 'breadcrumb1',
+  2 => 'breadcrumb2',
+  3 => 'empty',
+  4 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-13T13:57:00+08:00 ] 127.0.0.1 GET www.oscshop2.com/admin/user/index
+[运行时间：0.113590s] [吞吐率：8.80req/s] [内存消耗：2,370.35kb] [文件加载：54]
+[ info ] [ LANG ] D:\phpstudy2018\PHPTutorial\WWW\oscshop2\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'user',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=luq0j1ucbsvmb9pmu493lvr5og; Hm_lvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1594286757; Hm_lpvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1594619601',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.oscshop2.com/admin/user_action/index',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.oscshop2.com',
+)
+[ info ] [ PARAM ] array (
+  '/admin/user/index' => '',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] osc\admin\controller\User->index[ D:\phpstudy2018\PHPTutorial\WWW\oscshop2\oscshop\admin\controller\User.php ]
+[ info ] [ VIEW ] ./oscshop/admin\view\user\index.html [ array (
+  0 => 'admin_menu',
+  1 => 'breadcrumb1',
+  2 => 'breadcrumb2',
+  3 => 'empty',
+  4 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-13T13:57:05+08:00 ] 127.0.0.1 GET www.oscshop2.com/admin/config/index
+[运行时间：0.151197s] [吞吐率：6.61req/s] [内存消耗：2,385.39kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpstudy2018\PHPTutorial\WWW\oscshop2\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'config',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=luq0j1ucbsvmb9pmu493lvr5og; Hm_lvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1594286757; Hm_lpvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1594619601',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.oscshop2.com/admin/user/index',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.oscshop2.com',
+)
+[ info ] [ PARAM ] array (
+  '/admin/config/index' => '',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] osc\admin\controller\Config->index[ D:\phpstudy2018\PHPTutorial\WWW\oscshop2\oscshop\admin\controller\Config.php ]
+[ info ] [ VIEW ] ./oscshop/admin\view\config\index.html [ array (
+  0 => 'admin_menu',
+  1 => 'breadcrumb1',
+  2 => 'breadcrumb2',
+  3 => 'list',
+  4 => 'module',
+  5 => 'empty',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-13T13:57:15+08:00 ] 127.0.0.1 GET www.oscshop2.com/admin/config/index
+[运行时间：0.119507s] [吞吐率：8.37req/s] [内存消耗：2,228.79kb] [文件加载：53]
+[ info ] [ LANG ] D:\phpstudy2018\PHPTutorial\WWW\oscshop2\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'config',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=luq0j1ucbsvmb9pmu493lvr5og; Hm_lvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1594286757; Hm_lpvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1594619601',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.oscshop2.com/admin/config/index',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.oscshop2.com',
+)
+[ info ] [ PARAM ] array (
+  '/admin/config/index' => '',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] osc\admin\controller\Config->index[ D:\phpstudy2018\PHPTutorial\WWW\oscshop2\oscshop\admin\controller\Config.php ]
+[ info ] [ VIEW ] ./oscshop/admin\view\config\index.html [ array (
+  0 => 'admin_menu',
+  1 => 'breadcrumb1',
+  2 => 'breadcrumb2',
+  3 => 'list',
+  4 => 'module',
+  5 => 'empty',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-13T13:57:18+08:00 ] 127.0.0.1 GET www.oscshop2.com/admin/menu/index
+[运行时间：0.070358s] [吞吐率：14.21req/s] [内存消耗：1,846.38kb] [文件加载：47]
+[ info ] [ LANG ] D:\phpstudy2018\PHPTutorial\WWW\oscshop2\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'menu',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=luq0j1ucbsvmb9pmu493lvr5og; Hm_lvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1594286757; Hm_lpvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1594619601',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.oscshop2.com/admin/config/index',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.oscshop2.com',
+)
+[ info ] [ PARAM ] array (
+  '/admin/menu/index' => '',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] osc\admin\controller\Menu->index[ D:\phpstudy2018\PHPTutorial\WWW\oscshop2\oscshop\admin\controller\Menu.php ]
+[ info ] [ VIEW ] ./oscshop/admin\view\menu\index.html [ array (
+  0 => 'admin_menu',
+  1 => 'breadcrumb1',
+  2 => 'breadcrumb2',
+  3 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-13T13:57:29+08:00 ] 127.0.0.1 GET www.oscshop2.com/mobile/agent_backend/index
+[运行时间：0.118742s] [吞吐率：8.42req/s] [内存消耗：2,390.02kb] [文件加载：56]
+[ info ] [ LANG ] D:\phpstudy2018\PHPTutorial\WWW\oscshop2\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'mobile',
+    1 => 'agent_backend',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=luq0j1ucbsvmb9pmu493lvr5og; Hm_lvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1594286757; Hm_lpvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1594619601',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.oscshop2.com/admin/menu/index',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.oscshop2.com',
+)
+[ info ] [ PARAM ] array (
+  '/mobile/agent_backend/index' => '',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] osc\mobile\controller\AgentBackend->index[ D:\phpstudy2018\PHPTutorial\WWW\oscshop2\oscshop\mobile\controller\AgentBackend.php ]
+[ info ] [ VIEW ] ./themes/default/mobile/agent_backend\index.html [ array (
+  0 => 'admin_menu',
+  1 => 'breadcrumb1',
+  2 => 'list',
+  3 => 'empty',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-13T13:57:33+08:00 ] 127.0.0.1 GET www.oscshop2.com/mobile/custom_menu/index
+[运行时间：0.938370s] [吞吐率：1.07req/s] [内存消耗：2,407.22kb] [文件加载：51]
+[ info ] [ LANG ] D:\phpstudy2018\PHPTutorial\WWW\oscshop2\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'mobile',
+    1 => 'custom_menu',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=luq0j1ucbsvmb9pmu493lvr5og; Hm_lvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1594286757; Hm_lpvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1594619601',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.oscshop2.com/mobile/agent_backend/index',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.oscshop2.com',
+)
+[ info ] [ PARAM ] array (
+  '/mobile/custom_menu/index' => '',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] osc\mobile\controller\CustomMenu->index[ D:\phpstudy2018\PHPTutorial\WWW\oscshop2\oscshop\mobile\controller\CustomMenu.php ]
+[ info ] [ VIEW ] ./themes/default/mobile/custom_menu\index.html [ array (
+  0 => 'admin_menu',
+  1 => 'breadcrumb1',
+  2 => 'menu',
+  3 => 'menu_type',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-13T13:57:40+08:00 ] 127.0.0.1 GET www.oscshop2.com/mobile/settings_backend/mobile
+[运行时间：0.199485s] [吞吐率：5.01req/s] [内存消耗：2,303.30kb] [文件加载：53]
+[ info ] [ LANG ] D:\phpstudy2018\PHPTutorial\WWW\oscshop2\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'mobile',
+    1 => 'settings_backend',
+    2 => 'mobile',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=luq0j1ucbsvmb9pmu493lvr5og; Hm_lvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1594286757; Hm_lpvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1594619601',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.oscshop2.com/mobile/custom_menu/index',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.oscshop2.com',
+)
+[ info ] [ PARAM ] array (
+  '/mobile/settings_backend/mobile' => '',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] osc\mobile\controller\SettingsBackend->mobile[ D:\phpstudy2018\PHPTutorial\WWW\oscshop2\oscshop\mobile\controller\SettingsBackend.php ]
+[ info ] [ VIEW ] ./themes/default/mobile/settings_backend\mobile.html [ array (
+  0 => 'admin_menu',
+  1 => 'breadcrumb1',
+  2 => 'breadcrumb2',
+  3 => 'mobile',
+  4 => 'transport',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-13T13:57:48+08:00 ] 127.0.0.1 GET www.oscshop2.com/mobile/reply_backend/text
+[运行时间：0.136387s] [吞吐率：7.33req/s] [内存消耗：2,391.00kb] [文件加载：56]
+[ info ] [ LANG ] D:\phpstudy2018\PHPTutorial\WWW\oscshop2\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'mobile',
+    1 => 'reply_backend',
+    2 => 'text',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=luq0j1ucbsvmb9pmu493lvr5og; Hm_lvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1594286757; Hm_lpvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1594619601',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.oscshop2.com/mobile/settings_backend/mobile',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.oscshop2.com',
+)
+[ info ] [ PARAM ] array (
+  '/mobile/reply_backend/text' => '',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] osc\mobile\controller\ReplyBackend->text[ D:\phpstudy2018\PHPTutorial\WWW\oscshop2\oscshop\mobile\controller\ReplyBackend.php ]
+[ info ] [ VIEW ] ./themes/default/mobile/reply_backend\text.html [ array (
+  0 => 'admin_menu',
+  1 => 'breadcrumb1',
+  2 => 'list',
+  3 => 'empty',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-13T13:57:57+08:00 ] 127.0.0.1 GET www.oscshop2.com/admin/User/edit/id/1
+[运行时间：0.144333s] [吞吐率：6.93req/s] [内存消耗：2,315.63kb] [文件加载：50]
+[ info ] [ LANG ] D:\phpstudy2018\PHPTutorial\WWW\oscshop2\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'User',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=luq0j1ucbsvmb9pmu493lvr5og; Hm_lvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1594286757; Hm_lpvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1594619601',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.oscshop2.com/mobile/reply_backend/text',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.oscshop2.com',
+)
+[ info ] [ PARAM ] array (
+  '/admin/User/edit/id/1' => '',
+  'id' => '1',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] osc\admin\controller\User->edit[ D:\phpstudy2018\PHPTutorial\WWW\oscshop2\oscshop\admin\controller\User.php ]
+[ info ] [ VIEW ] ./oscshop/admin\view\user\edit.html [ array (
+  0 => 'admin_menu',
+  1 => 'breadcrumb1',
+  2 => 'breadcrumb2',
+  3 => 'group',
+  4 => 'user',
+  5 => 'crumbs',
+  6 => 'action',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-13T13:58:06+08:00 ] 127.0.0.1 POST www.oscshop2.com/admin/User/edit
+[运行时间：0.347875s] [吞吐率：2.87req/s] [内存消耗：1,987.05kb] [文件加载：47]
+[ info ] [ LANG ] D:\phpstudy2018\PHPTutorial\WWW\oscshop2\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'User',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=luq0j1ucbsvmb9pmu493lvr5og; Hm_lvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1594286757; Hm_lpvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1594619601',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.oscshop2.com/admin/User/edit/id/1',
+  'origin' => 'http://www.oscshop2.com',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'content-length' => '84',
+  'connection' => 'close',
+  'host' => 'www.oscshop2.com',
+)
+[ info ] [ PARAM ] array (
+  '/admin/User/edit' => '',
+  'admin_id' => '1',
+  'user_name' => 'admin',
+  'passwd' => '12345678',
+  'true_name' => '',
+  'telephone' => '',
+  'group_id' => '2',
+  'status' => '1',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] osc\admin\controller\User->edit[ D:\phpstudy2018\PHPTutorial\WWW\oscshop2\oscshop\admin\controller\User.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-13T13:58:08+08:00 ] 127.0.0.1 GET www.oscshop2.com/admin/User/index
+[运行时间：0.159074s] [吞吐率：6.29req/s] [内存消耗：2,223.45kb] [文件加载：52]
+[ info ] [ LANG ] D:\phpstudy2018\PHPTutorial\WWW\oscshop2\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'User',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=luq0j1ucbsvmb9pmu493lvr5og; Hm_lvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1594286757; Hm_lpvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1594619601',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.oscshop2.com/admin/User/edit/id/1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.oscshop2.com',
+)
+[ info ] [ PARAM ] array (
+  '/admin/User/index' => '',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] osc\admin\controller\User->index[ D:\phpstudy2018\PHPTutorial\WWW\oscshop2\oscshop\admin\controller\User.php ]
+[ info ] [ VIEW ] ./oscshop/admin\view\user\index.html [ array (
+  0 => 'admin_menu',
+  1 => 'breadcrumb1',
+  2 => 'breadcrumb2',
+  3 => 'empty',
+  4 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-13T13:58:10+08:00 ] 127.0.0.1 GET www.oscshop2.com/admin/Index/logout
+[运行时间：0.176932s] [吞吐率：5.65req/s] [内存消耗：2,093.07kb] [文件加载：49]
+[ info ] [ LANG ] D:\phpstudy2018\PHPTutorial\WWW\oscshop2\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Index',
+    2 => 'logout',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=luq0j1ucbsvmb9pmu493lvr5og; Hm_lvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1594286757; Hm_lpvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1594619601',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.oscshop2.com/admin/User/index',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.oscshop2.com',
+)
+[ info ] [ PARAM ] array (
+  '/admin/Index/logout' => '',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] osc\admin\controller\Index->logout[ D:\phpstudy2018\PHPTutorial\WWW\oscshop2\oscshop\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-13T13:58:10+08:00 ] 127.0.0.1 GET www.oscshop2.com/admin/Login/login
+[运行时间：0.067887s] [吞吐率：14.73req/s] [内存消耗：1,408.88kb] [文件加载：41]
+[ info ] [ LANG ] D:\phpstudy2018\PHPTutorial\WWW\oscshop2\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Login',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=luq0j1ucbsvmb9pmu493lvr5og; Hm_lvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1594286757; Hm_lpvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1594619601',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.oscshop2.com/admin/User/index',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.oscshop2.com',
+)
+[ info ] [ PARAM ] array (
+  '/admin/Login/login' => '',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] osc\admin\controller\Login->login[ D:\phpstudy2018\PHPTutorial\WWW\oscshop2\oscshop\admin\controller\Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] ./oscshop/admin\view\public\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-13T13:58:13+08:00 ] 127.0.0.1 POST www.oscshop2.com/admin/Login/login
+[运行时间：0.104610s] [吞吐率：9.56req/s] [内存消耗：1,962.13kb] [文件加载：47]
+[ info ] [ LANG ] D:\phpstudy2018\PHPTutorial\WWW\oscshop2\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Login',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=luq0j1ucbsvmb9pmu493lvr5og; Hm_lvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1594286757; Hm_lpvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1594619601',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.oscshop2.com/admin/Login/login',
+  'origin' => 'http://www.oscshop2.com',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '30',
+  'connection' => 'close',
+  'host' => 'www.oscshop2.com',
+)
+[ info ] [ PARAM ] array (
+  '/admin/Login/login' => '',
+  'username' => 'admin',
+  'password' => '123456',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] osc\admin\controller\Login->login[ D:\phpstudy2018\PHPTutorial\WWW\oscshop2\oscshop\admin\controller\Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-13T13:58:18+08:00 ] 127.0.0.1 POST www.oscshop2.com/admin/Login/login
+[运行时间：0.530619s] [吞吐率：1.88req/s] [内存消耗：2,041.76kb] [文件加载：49]
+[ info ] [ LANG ] D:\phpstudy2018\PHPTutorial\WWW\oscshop2\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Login',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=luq0j1ucbsvmb9pmu493lvr5og; Hm_lvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1594286757; Hm_lpvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1594619601',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.oscshop2.com/admin/Login/login',
+  'origin' => 'http://www.oscshop2.com',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '32',
+  'connection' => 'close',
+  'host' => 'www.oscshop2.com',
+)
+[ info ] [ PARAM ] array (
+  '/admin/Login/login' => '',
+  'username' => 'admin',
+  'password' => '12345678',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] osc\admin\controller\Login->login[ D:\phpstudy2018\PHPTutorial\WWW\oscshop2\oscshop\admin\controller\Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-13T13:58:18+08:00 ] 127.0.0.1 GET www.oscshop2.com/admin/Index/index
+[运行时间：0.178302s] [吞吐率：5.61req/s] [内存消耗：2,328.86kb] [文件加载：53]
+[ info ] [ LANG ] D:\phpstudy2018\PHPTutorial\WWW\oscshop2\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=luq0j1ucbsvmb9pmu493lvr5og; Hm_lvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1594286757; Hm_lpvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1594619601',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.oscshop2.com/admin/Login/login',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.oscshop2.com',
+)
+[ info ] [ PARAM ] array (
+  '/admin/Index/index' => '',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] osc\admin\controller\Index->index[ D:\phpstudy2018\PHPTutorial\WWW\oscshop2\oscshop\admin\controller\Index.php ]
+[ info ] [ VIEW ] ./oscshop/admin\view\index\index.html [ array (
+  0 => 'admin_menu',
+  1 => 'total_order',
+  2 => 'today_order',
+  3 => 'total_money',
+  4 => 'today_money',
+  5 => 'user_action_total',
+  6 => 'today_user_action',
+  7 => 'today_member',
+  8 => 'member_count',
+  9 => 'user_action',
+  10 => 'uc_empty',
+  11 => 'order_list',
+  12 => 'empty',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-13T13:58:22+08:00 ] 127.0.0.1 GET www.oscshop2.com/member/MemberBackend/index
+[运行时间：0.158655s] [吞吐率：6.30req/s] [内存消耗：2,382.45kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpstudy2018\PHPTutorial\WWW\oscshop2\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'member',
+    1 => 'MemberBackend',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=luq0j1ucbsvmb9pmu493lvr5og; Hm_lvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1594286757; Hm_lpvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1594619601',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.oscshop2.com/admin/Index/index',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.oscshop2.com',
+)
+[ info ] [ PARAM ] array (
+  '/member/MemberBackend/index' => '',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] osc\member\controller\MemberBackend->index[ D:\phpstudy2018\PHPTutorial\WWW\oscshop2\oscshop\member\controller\MemberBackend.php ]
+[ info ] [ VIEW ] ./themes/default/member/member_backend\index.html [ array (
+  0 => 'admin_menu',
+  1 => 'breadcrumb1',
+  2 => 'breadcrumb2',
+  3 => 'list',
+  4 => 'empty',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-13T13:58:28+08:00 ] 127.0.0.1 GET www.oscshop2.com/member/MemberBackend/edit/id/1
+[运行时间：0.406600s] [吞吐率：2.46req/s] [内存消耗：2,682.25kb] [文件加载：51]
+[ info ] [ LANG ] D:\phpstudy2018\PHPTutorial\WWW\oscshop2\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'member',
+    1 => 'MemberBackend',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=luq0j1ucbsvmb9pmu493lvr5og; Hm_lvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1594286757; Hm_lpvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1594619601',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.oscshop2.com/member/MemberBackend/index',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.oscshop2.com',
+)
+[ info ] [ PARAM ] array (
+  '/member/MemberBackend/edit/id/1' => '',
+  'id' => '1',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] osc\member\controller\MemberBackend->edit[ D:\phpstudy2018\PHPTutorial\WWW\oscshop2\oscshop\member\controller\MemberBackend.php ]
+[ info ] [ VIEW ] ./themes/default/member/member_backend\info.html [ array (
+  0 => 'admin_menu',
+  1 => 'breadcrumb1',
+  2 => 'breadcrumb2',
+  3 => 'data',
+  4 => 'group',
+  5 => 'crumbs',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-13T14:04:42+08:00 ] 127.0.0.1 GET www.oscshop2.com/admin/brand/index
+[运行时间：0.123633s] [吞吐率：8.09req/s] [内存消耗：2,207.47kb] [文件加载：52]
+[ info ] [ LANG ] D:\phpstudy2018\PHPTutorial\WWW\oscshop2\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'brand',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=luq0j1ucbsvmb9pmu493lvr5og; Hm_lvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1594286757; Hm_lpvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1594619601',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.oscshop2.com/member/MemberBackend/edit/id/1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.oscshop2.com',
+)
+[ info ] [ PARAM ] array (
+  '/admin/brand/index' => '',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] osc\admin\controller\Brand->index[ D:\phpstudy2018\PHPTutorial\WWW\oscshop2\oscshop\admin\controller\Brand.php ]
+[ info ] [ VIEW ] ./oscshop/admin\view\brand\index.html [ array (
+  0 => 'admin_menu',
+  1 => 'breadcrumb1',
+  2 => 'breadcrumb2',
+  3 => 'empty',
+  4 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-13T14:04:53+08:00 ] 127.0.0.1 GET www.oscshop2.com/mobile/agent_backend/share
+[运行时间：0.135131s] [吞吐率：7.40req/s] [内存消耗：2,383.40kb] [文件加载：56]
+[ info ] [ LANG ] D:\phpstudy2018\PHPTutorial\WWW\oscshop2\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'mobile',
+    1 => 'agent_backend',
+    2 => 'share',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=luq0j1ucbsvmb9pmu493lvr5og; Hm_lvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1594286757; Hm_lpvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1594619601',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.oscshop2.com/admin/brand/index',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.oscshop2.com',
+)
+[ info ] [ PARAM ] array (
+  '/mobile/agent_backend/share' => '',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] osc\mobile\controller\AgentBackend->share[ D:\phpstudy2018\PHPTutorial\WWW\oscshop2\oscshop\mobile\controller\AgentBackend.php ]
+[ info ] [ VIEW ] ./themes/default/mobile/agent_backend\share.html [ array (
+  0 => 'admin_menu',
+  1 => 'breadcrumb1',
+  2 => 'list',
+  3 => 'empty',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-13T15:59:25+08:00 ] 127.0.0.1 GET www.oscshop2.com/mobile/reply_backend/text
+[运行时间：0.140901s] [吞吐率：7.10req/s] [内存消耗：2,244.39kb] [文件加载：54]
+[ info ] [ LANG ] D:\phpstudy2018\PHPTutorial\WWW\oscshop2\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'mobile',
+    1 => 'reply_backend',
+    2 => 'text',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=luq0j1ucbsvmb9pmu493lvr5og; Hm_lvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1594286757; Hm_lpvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1594619601',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.oscshop2.com/mobile/agent_backend/share',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.oscshop2.com',
+)
+[ info ] [ PARAM ] array (
+  '/mobile/reply_backend/text' => '',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] osc\mobile\controller\ReplyBackend->text[ D:\phpstudy2018\PHPTutorial\WWW\oscshop2\oscshop\mobile\controller\ReplyBackend.php ]
+[ info ] [ VIEW ] ./themes/default/mobile/reply_backend\text.html [ array (
+  0 => 'admin_menu',
+  1 => 'breadcrumb1',
+  2 => 'list',
+  3 => 'empty',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-13T15:59:25+08:00 ] 127.0.0.1 GET www.oscshop2.com/favicon.ico
+[运行时间：0.063214s] [吞吐率：15.82req/s] [内存消耗：1,114.43kb] [文件加载：30]
+[ info ] [ LANG ] D:\phpstudy2018\PHPTutorial\WWW\oscshop2\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'favicon',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=luq0j1ucbsvmb9pmu493lvr5og; Hm_lvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1594286757; Hm_lpvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1594619601',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.oscshop2.com/mobile/reply_backend/text',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.oscshop2.com',
+)
+[ info ] [ PARAM ] array (
+  '/favicon_ico' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-13T15:59:29+08:00 ] 127.0.0.1 GET www.oscshop2.com/mobile/custom_menu/index
+[运行时间：0.812882s] [吞吐率：1.23req/s] [内存消耗：2,244.95kb] [文件加载：49]
+[ info ] [ LANG ] D:\phpstudy2018\PHPTutorial\WWW\oscshop2\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'mobile',
+    1 => 'custom_menu',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=luq0j1ucbsvmb9pmu493lvr5og; Hm_lvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1594286757; Hm_lpvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1594619601',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.oscshop2.com/mobile/reply_backend/text',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.oscshop2.com',
+)
+[ info ] [ PARAM ] array (
+  '/mobile/custom_menu/index' => '',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] osc\mobile\controller\CustomMenu->index[ D:\phpstudy2018\PHPTutorial\WWW\oscshop2\oscshop\mobile\controller\CustomMenu.php ]
+[ info ] [ VIEW ] ./themes/default/mobile/custom_menu\index.html [ array (
+  0 => 'admin_menu',
+  1 => 'breadcrumb1',
+  2 => 'menu',
+  3 => 'menu_type',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-13T15:59:36+08:00 ] 127.0.0.1 GET www.oscshop2.com/mobile/settings_backend/mobile
+[运行时间：0.141548s] [吞吐率：7.06req/s] [内存消耗：2,155.74kb] [文件加载：51]
+[ info ] [ LANG ] D:\phpstudy2018\PHPTutorial\WWW\oscshop2\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'mobile',
+    1 => 'settings_backend',
+    2 => 'mobile',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=luq0j1ucbsvmb9pmu493lvr5og; Hm_lvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1594286757; Hm_lpvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1594619601',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.oscshop2.com/mobile/custom_menu/index',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.oscshop2.com',
+)
+[ info ] [ PARAM ] array (
+  '/mobile/settings_backend/mobile' => '',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] osc\mobile\controller\SettingsBackend->mobile[ D:\phpstudy2018\PHPTutorial\WWW\oscshop2\oscshop\mobile\controller\SettingsBackend.php ]
+[ info ] [ VIEW ] ./themes/default/mobile/settings_backend\mobile.html [ array (
+  0 => 'admin_menu',
+  1 => 'breadcrumb1',
+  2 => 'breadcrumb2',
+  3 => 'mobile',
+  4 => 'transport',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-13T15:59:50+08:00 ] 127.0.0.1 GET www.oscshop2.com/
+[运行时间：0.118045s] [吞吐率：8.47req/s] [内存消耗：1,490.70kb] [文件加载：44]
+[ info ] [ LANG ] D:\phpstudy2018\PHPTutorial\WWW\oscshop2\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=luq0j1ucbsvmb9pmu493lvr5og; Hm_lvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1594286757; Hm_lpvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1594619601',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.oscshop2.com/mobile/settings_backend/mobile',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.oscshop2.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] osc\index\controller\Index->index[ D:\phpstudy2018\PHPTutorial\WWW\oscshop2\oscshop\index\controller\Index.php ]
+[ info ] [ VIEW ] ./themes/default/index/index\index.html [ array (
+  0 => 'top_nav',
+  1 => 'empty',
+  2 => 'list',
+  3 => 'SEO',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-13T15:59:55+08:00 ] 127.0.0.1 GET www.oscshop2.com/
+[运行时间：0.073429s] [吞吐率：13.62req/s] [内存消耗：1,300.63kb] [文件加载：38]
+[ info ] [ LANG ] D:\phpstudy2018\PHPTutorial\WWW\oscshop2\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=luq0j1ucbsvmb9pmu493lvr5og; Hm_lvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1594286757; Hm_lpvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1594627190',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.oscshop2.com/mobile/settings_backend/mobile',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'www.oscshop2.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-13T15:59:55+08:00 ] 127.0.0.1 GET www.oscshop2.com/mobile/
+[运行时间：0.143488s] [吞吐率：6.97req/s] [内存消耗：1,565.42kb] [文件加载：46]
+[ info ] [ LANG ] D:\phpstudy2018\PHPTutorial\WWW\oscshop2\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'mobile',
+    1 => 'index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=luq0j1ucbsvmb9pmu493lvr5og; Hm_lvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1594286757; Hm_lpvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1594627190',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.oscshop2.com/mobile/settings_backend/mobile',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'www.oscshop2.com',
+)
+[ info ] [ PARAM ] array (
+  '/mobile/' => '',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] osc\mobile\controller\Index->index[ D:\phpstudy2018\PHPTutorial\WWW\oscshop2\oscshop\mobile\controller\Index.php ]
+[ info ] [ VIEW ] ./themes/default/mobile/index\index.html [ array (
+  0 => 'SEO',
+  1 => 'flag',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-13T15:59:55+08:00 ] 127.0.0.1 GET www.oscshop2.com/mobile/index/ajax_goods_list/page/0
+[运行时间：0.113540s] [吞吐率：8.81req/s] [内存消耗：1,571.14kb] [文件加载：46]
+[ info ] [ LANG ] D:\phpstudy2018\PHPTutorial\WWW\oscshop2\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'mobile',
+    1 => 'index',
+    2 => 'ajax_goods_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=luq0j1ucbsvmb9pmu493lvr5og; Hm_lvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1594286757; Hm_lpvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1594627190; osc_jump_url=http%3A%2F%2Fwww.oscshop2.com%2Fmobile%2F',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.oscshop2.com/mobile/',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'www.oscshop2.com',
+)
+[ info ] [ PARAM ] array (
+  '/mobile/index/ajax_goods_list/page/0' => '',
+  'page' => '0',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] osc\mobile\controller\Index->ajax_goods_list[ D:\phpstudy2018\PHPTutorial\WWW\oscshop2\oscshop\mobile\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-13T15:59:57+08:00 ] 127.0.0.1 GET www.oscshop2.com/mobile/index/ajax_goods_list/page/1
+[运行时间：0.090251s] [吞吐率：11.08req/s] [内存消耗：1,571.14kb] [文件加载：46]
+[ info ] [ LANG ] D:\phpstudy2018\PHPTutorial\WWW\oscshop2\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'mobile',
+    1 => 'index',
+    2 => 'ajax_goods_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=luq0j1ucbsvmb9pmu493lvr5og; Hm_lvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1594286757; osc_jump_url=http%3A%2F%2Fwww.oscshop2.com%2Fmobile%2F; Hm_lpvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1594627196',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.oscshop2.com/mobile/',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'www.oscshop2.com',
+)
+[ info ] [ PARAM ] array (
+  '/mobile/index/ajax_goods_list/page/1' => '',
+  'page' => '1',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] osc\mobile\controller\Index->ajax_goods_list[ D:\phpstudy2018\PHPTutorial\WWW\oscshop2\oscshop\mobile\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-13T15:59:58+08:00 ] 127.0.0.1 GET www.oscshop2.com/mobile/index/ajax_goods_list/page/2
+[运行时间：0.101308s] [吞吐率：9.87req/s] [内存消耗：1,569.49kb] [文件加载：46]
+[ info ] [ LANG ] D:\phpstudy2018\PHPTutorial\WWW\oscshop2\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'mobile',
+    1 => 'index',
+    2 => 'ajax_goods_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=luq0j1ucbsvmb9pmu493lvr5og; Hm_lvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1594286757; osc_jump_url=http%3A%2F%2Fwww.oscshop2.com%2Fmobile%2F; Hm_lpvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1594627196',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.oscshop2.com/mobile/',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'www.oscshop2.com',
+)
+[ info ] [ PARAM ] array (
+  '/mobile/index/ajax_goods_list/page/2' => '',
+  'page' => '2',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] osc\mobile\controller\Index->ajax_goods_list[ D:\phpstudy2018\PHPTutorial\WWW\oscshop2\oscshop\mobile\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-13T16:00:03+08:00 ] 127.0.0.1 GET www.oscshop2.com/mobile/goods/detail/id/1
+[运行时间：0.408681s] [吞吐率：2.45req/s] [内存消耗：2,335.19kb] [文件加载：53]
+[ info ] [ LANG ] D:\phpstudy2018\PHPTutorial\WWW\oscshop2\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'mobile',
+    1 => 'goods',
+    2 => 'detail',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=luq0j1ucbsvmb9pmu493lvr5og; Hm_lvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1594286757; osc_jump_url=http%3A%2F%2Fwww.oscshop2.com%2Fmobile%2F; Hm_lpvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1594627196',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.oscshop2.com/mobile/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'www.oscshop2.com',
+)
+[ info ] [ PARAM ] array (
+  '/mobile/goods/detail/id/1' => '',
+  'id' => '1',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] osc\mobile\controller\Goods->detail[ D:\phpstudy2018\PHPTutorial\WWW\oscshop2\oscshop\mobile\controller\Goods.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] ./themes/default/mobile/goods\detail.html [ array (
+  0 => 'SEO',
+  1 => 'top_title',
+  2 => 'goods',
+  3 => 'image',
+  4 => 'options',
+  5 => 'discount',
+  6 => 'mobile_description',
+  7 => 'related_goods',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-13T16:00:05+08:00 ] 127.0.0.1 GET www.oscshop2.com/mobile/goods/get_description/id/1
+[运行时间：0.216531s] [吞吐率：4.62req/s] [内存消耗：2,040.14kb] [文件加载：48]
+[ info ] [ LANG ] D:\phpstudy2018\PHPTutorial\WWW\oscshop2\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'mobile',
+    1 => 'goods',
+    2 => 'get_description',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=luq0j1ucbsvmb9pmu493lvr5og; Hm_lvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1594286757; osc_jump_url=http%3A%2F%2Fwww.oscshop2.com%2Fmobile%2Fgoods%2Fdetail%2Fid%2F1; Hm_lpvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1594627204',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.oscshop2.com/mobile/goods/detail/id/1',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'text/html, */*; q=0.01',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'www.oscshop2.com',
+)
+[ info ] [ PARAM ] array (
+  '/mobile/goods/get_description/id/1' => '',
+  'id' => '1',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] osc\mobile\controller\Goods->get_description[ D:\phpstudy2018\PHPTutorial\WWW\oscshop2\oscshop\mobile\controller\Goods.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] ./themes/default/mobile/goods\get_description.html [ array (
+  0 => 'description',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-13T16:00:09+08:00 ] 127.0.0.1 GET www.oscshop2.com/mobile
+[运行时间：0.113733s] [吞吐率：8.79req/s] [内存消耗：1,440.41kb] [文件加载：44]
+[ info ] [ LANG ] D:\phpstudy2018\PHPTutorial\WWW\oscshop2\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'mobile',
+    1 => 'index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=luq0j1ucbsvmb9pmu493lvr5og; Hm_lvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1594286757; osc_jump_url=http%3A%2F%2Fwww.oscshop2.com%2Fmobile%2Fgoods%2Fdetail%2Fid%2F1; Hm_lpvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1594627204',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.oscshop2.com/mobile/goods/detail/id/1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'www.oscshop2.com',
+)
+[ info ] [ PARAM ] array (
+  '/mobile' => '',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] osc\mobile\controller\Index->index[ D:\phpstudy2018\PHPTutorial\WWW\oscshop2\oscshop\mobile\controller\Index.php ]
+[ info ] [ VIEW ] ./themes/default/mobile/index\index.html [ array (
+  0 => 'SEO',
+  1 => 'flag',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-13T16:00:10+08:00 ] 127.0.0.1 GET www.oscshop2.com/mobile/index/ajax_goods_list/page/0
+[运行时间：0.141442s] [吞吐率：7.07req/s] [内存消耗：1,571.14kb] [文件加载：46]
+[ info ] [ LANG ] D:\phpstudy2018\PHPTutorial\WWW\oscshop2\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'mobile',
+    1 => 'index',
+    2 => 'ajax_goods_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=luq0j1ucbsvmb9pmu493lvr5og; Hm_lvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1594286757; Hm_lpvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1594627204; osc_jump_url=http%3A%2F%2Fwww.oscshop2.com%2Fmobile',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.oscshop2.com/mobile',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'www.oscshop2.com',
+)
+[ info ] [ PARAM ] array (
+  '/mobile/index/ajax_goods_list/page/0' => '',
+  'page' => '0',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] osc\mobile\controller\Index->ajax_goods_list[ D:\phpstudy2018\PHPTutorial\WWW\oscshop2\oscshop\mobile\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-13T16:00:11+08:00 ] 127.0.0.1 GET www.oscshop2.com/mobile/index/ajax_goods_list/page/1
+[运行时间：0.098753s] [吞吐率：10.13req/s] [内存消耗：1,571.14kb] [文件加载：46]
+[ info ] [ LANG ] D:\phpstudy2018\PHPTutorial\WWW\oscshop2\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'mobile',
+    1 => 'index',
+    2 => 'ajax_goods_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=luq0j1ucbsvmb9pmu493lvr5og; Hm_lvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1594286757; osc_jump_url=http%3A%2F%2Fwww.oscshop2.com%2Fmobile; Hm_lpvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1594627210',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.oscshop2.com/mobile',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'www.oscshop2.com',
+)
+[ info ] [ PARAM ] array (
+  '/mobile/index/ajax_goods_list/page/1' => '',
+  'page' => '1',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] osc\mobile\controller\Index->ajax_goods_list[ D:\phpstudy2018\PHPTutorial\WWW\oscshop2\oscshop\mobile\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-13T16:00:17+08:00 ] 127.0.0.1 GET www.oscshop2.com/mobile/category/index
+[运行时间：0.178263s] [吞吐率：5.61req/s] [内存消耗：2,227.77kb] [文件加载：52]
+[ info ] [ LANG ] D:\phpstudy2018\PHPTutorial\WWW\oscshop2\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'mobile',
+    1 => 'category',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=luq0j1ucbsvmb9pmu493lvr5og; Hm_lvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1594286757; osc_jump_url=http%3A%2F%2Fwww.oscshop2.com%2Fmobile; Hm_lpvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1594627210',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.oscshop2.com/mobile',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'www.oscshop2.com',
+)
+[ info ] [ PARAM ] array (
+  '/mobile/category/index' => '',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] osc\mobile\controller\Category->index[ D:\phpstudy2018\PHPTutorial\WWW\oscshop2\oscshop\mobile\controller\Category.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] ./themes/default/mobile/category\index.html [ array (
+  0 => 'category',
+  1 => 'SEO',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-13T16:00:18+08:00 ] 127.0.0.1 GET www.oscshop2.com/mobile/category/get_goods/id/3
+[运行时间：0.197222s] [吞吐率：5.07req/s] [内存消耗：2,152.90kb] [文件加载：49]
+[ info ] [ LANG ] D:\phpstudy2018\PHPTutorial\WWW\oscshop2\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'mobile',
+    1 => 'category',
+    2 => 'get_goods',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=luq0j1ucbsvmb9pmu493lvr5og; Hm_lvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1594286757; osc_jump_url=http%3A%2F%2Fwww.oscshop2.com%2Fmobile; Hm_lpvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1594627210',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.oscshop2.com/mobile/category/index',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'text/html, */*; q=0.01',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'www.oscshop2.com',
+)
+[ info ] [ PARAM ] array (
+  '/mobile/category/get_goods/id/3' => '',
+  'id' => '3',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] osc\mobile\controller\Category->get_goods[ D:\phpstudy2018\PHPTutorial\WWW\oscshop2\oscshop\mobile\controller\Category.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] ./themes/default/mobile/category\goods.html [ array (
+  0 => 'goods',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-13T16:00:24+08:00 ] 127.0.0.1 GET www.oscshop2.com/mobile/goods/detail/id/9
+[运行时间：0.314016s] [吞吐率：3.18req/s] [内存消耗：2,175.38kb] [文件加载：51]
+[ info ] [ LANG ] D:\phpstudy2018\PHPTutorial\WWW\oscshop2\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'mobile',
+    1 => 'goods',
+    2 => 'detail',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=luq0j1ucbsvmb9pmu493lvr5og; Hm_lvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1594286757; osc_jump_url=http%3A%2F%2Fwww.oscshop2.com%2Fmobile; Hm_lpvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1594627218',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.oscshop2.com/mobile/category/index',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'www.oscshop2.com',
+)
+[ info ] [ PARAM ] array (
+  '/mobile/goods/detail/id/9' => '',
+  'id' => '9',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] osc\mobile\controller\Goods->detail[ D:\phpstudy2018\PHPTutorial\WWW\oscshop2\oscshop\mobile\controller\Goods.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] ./themes/default/mobile/goods\detail.html [ array (
+  0 => 'SEO',
+  1 => 'top_title',
+  2 => 'goods',
+  3 => 'image',
+  4 => 'options',
+  5 => 'discount',
+  6 => 'mobile_description',
+  7 => 'related_goods',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-13T16:00:25+08:00 ] 127.0.0.1 GET www.oscshop2.com/mobile/goods/get_description/id/9
+[运行时间：0.163193s] [吞吐率：6.13req/s] [内存消耗：1,933.16kb] [文件加载：46]
+[ info ] [ LANG ] D:\phpstudy2018\PHPTutorial\WWW\oscshop2\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'mobile',
+    1 => 'goods',
+    2 => 'get_description',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=luq0j1ucbsvmb9pmu493lvr5og; Hm_lvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1594286757; osc_jump_url=http%3A%2F%2Fwww.oscshop2.com%2Fmobile%2Fgoods%2Fdetail%2Fid%2F9; Hm_lpvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1594627225',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.oscshop2.com/mobile/goods/detail/id/9',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'text/html, */*; q=0.01',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'www.oscshop2.com',
+)
+[ info ] [ PARAM ] array (
+  '/mobile/goods/get_description/id/9' => '',
+  'id' => '9',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] osc\mobile\controller\Goods->get_description[ D:\phpstudy2018\PHPTutorial\WWW\oscshop2\oscshop\mobile\controller\Goods.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] ./themes/default/mobile/goods\get_description.html [ array (
+  0 => 'description',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-13T16:00:33+08:00 ] 127.0.0.1 GET www.oscshop2.com/mobile
+[运行时间：0.100449s] [吞吐率：9.96req/s] [内存消耗：1,440.41kb] [文件加载：44]
+[ info ] [ LANG ] D:\phpstudy2018\PHPTutorial\WWW\oscshop2\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'mobile',
+    1 => 'index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=luq0j1ucbsvmb9pmu493lvr5og; Hm_lvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1594286757; osc_jump_url=http%3A%2F%2Fwww.oscshop2.com%2Fmobile%2Fgoods%2Fdetail%2Fid%2F9; Hm_lpvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1594627225',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.oscshop2.com/mobile/goods/detail/id/9',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'www.oscshop2.com',
+)
+[ info ] [ PARAM ] array (
+  '/mobile' => '',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] osc\mobile\controller\Index->index[ D:\phpstudy2018\PHPTutorial\WWW\oscshop2\oscshop\mobile\controller\Index.php ]
+[ info ] [ VIEW ] ./themes/default/mobile/index\index.html [ array (
+  0 => 'SEO',
+  1 => 'flag',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-13T16:00:33+08:00 ] 127.0.0.1 GET www.oscshop2.com/mobile/index/ajax_goods_list/page/0
+[运行时间：0.153000s] [吞吐率：6.54req/s] [内存消耗：1,571.14kb] [文件加载：46]
+[ info ] [ LANG ] D:\phpstudy2018\PHPTutorial\WWW\oscshop2\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'mobile',
+    1 => 'index',
+    2 => 'ajax_goods_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=luq0j1ucbsvmb9pmu493lvr5og; Hm_lvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1594286757; Hm_lpvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1594627225; osc_jump_url=http%3A%2F%2Fwww.oscshop2.com%2Fmobile',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.oscshop2.com/mobile',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'www.oscshop2.com',
+)
+[ info ] [ PARAM ] array (
+  '/mobile/index/ajax_goods_list/page/0' => '',
+  'page' => '0',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] osc\mobile\controller\Index->ajax_goods_list[ D:\phpstudy2018\PHPTutorial\WWW\oscshop2\oscshop\mobile\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-13T16:00:37+08:00 ] 127.0.0.1 GET www.oscshop2.com/mobile/user/index
+[运行时间：0.105265s] [吞吐率：9.50req/s] [内存消耗：1,416.85kb] [文件加载：45]
+[ info ] [ LANG ] D:\phpstudy2018\PHPTutorial\WWW\oscshop2\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'mobile',
+    1 => 'user',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=luq0j1ucbsvmb9pmu493lvr5og; Hm_lvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1594286757; osc_jump_url=http%3A%2F%2Fwww.oscshop2.com%2Fmobile; Hm_lpvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1594627234',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.oscshop2.com/mobile',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'www.oscshop2.com',
+)
+[ info ] [ PARAM ] array (
+  '/mobile/user/index' => '',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-13T16:00:37+08:00 ] 127.0.0.1 GET www.oscshop2.com/mobile/login/login
+[运行时间：0.084226s] [吞吐率：11.87req/s] [内存消耗：1,562.86kb] [文件加载：45]
+[ info ] [ LANG ] D:\phpstudy2018\PHPTutorial\WWW\oscshop2\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'mobile',
+    1 => 'login',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=luq0j1ucbsvmb9pmu493lvr5og; Hm_lvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1594286757; osc_jump_url=http%3A%2F%2Fwww.oscshop2.com%2Fmobile; Hm_lpvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1594627234',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.oscshop2.com/mobile',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'www.oscshop2.com',
+)
+[ info ] [ PARAM ] array (
+  '/mobile/login/login' => '',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] osc\mobile\controller\Login->login[ D:\phpstudy2018\PHPTutorial\WWW\oscshop2\oscshop\mobile\controller\Login.php ]
+[ info ] [ VIEW ] ./themes/default/mobile/login\login.html [ array (
+  0 => 'SEO',
+  1 => 'top_title',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-13T16:00:47+08:00 ] 127.0.0.1 POST www.oscshop2.com/mobile/login/login
+[运行时间：0.335438s] [吞吐率：2.98req/s] [内存消耗：2,128.38kb] [文件加载：52]
+[ info ] [ LANG ] D:\phpstudy2018\PHPTutorial\WWW\oscshop2\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'mobile',
+    1 => 'login',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=luq0j1ucbsvmb9pmu493lvr5og; Hm_lvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1594286757; osc_jump_url=http%3A%2F%2Fwww.oscshop2.com%2Fmobile; Hm_lpvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1594627238',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.oscshop2.com/mobile/login/login',
+  'origin' => 'http://www.oscshop2.com',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'content-length' => '34',
+  'connection' => 'close',
+  'host' => 'www.oscshop2.com',
+)
+[ info ] [ PARAM ] array (
+  '/mobile/login/login' => '',
+  'username' => '1212121',
+  'password' => 'asdf1234',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] osc\mobile\controller\Login->login[ D:\phpstudy2018\PHPTutorial\WWW\oscshop2\oscshop\mobile\controller\Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-13T16:00:48+08:00 ] 127.0.0.1 GET www.oscshop2.com/mobile
+[运行时间：0.063586s] [吞吐率：15.73req/s] [内存消耗：1,441.24kb] [文件加载：44]
+[ info ] [ LANG ] D:\phpstudy2018\PHPTutorial\WWW\oscshop2\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'mobile',
+    1 => 'index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=luq0j1ucbsvmb9pmu493lvr5og; Hm_lvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1594286757; osc_jump_url=http%3A%2F%2Fwww.oscshop2.com%2Fmobile; Hm_lpvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1594627238; osc_mobile_user_info=think%3A%7B%22uid%22%3A%221%22%2C%22username%22%3A%221212121%22%2C%22nickname%22%3A%2211111%22%2C%22group_id%22%3A%222%22%7D',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.oscshop2.com/mobile/login/login',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'www.oscshop2.com',
+)
+[ info ] [ PARAM ] array (
+  '/mobile' => '',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] osc\mobile\controller\Index->index[ D:\phpstudy2018\PHPTutorial\WWW\oscshop2\oscshop\mobile\controller\Index.php ]
+[ info ] [ VIEW ] ./themes/default/mobile/index\index.html [ array (
+  0 => 'SEO',
+  1 => 'flag',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-13T16:00:48+08:00 ] 127.0.0.1 GET www.oscshop2.com/mobile/index/ajax_goods_list/page/0
+[运行时间：0.100512s] [吞吐率：9.95req/s] [内存消耗：1,571.86kb] [文件加载：46]
+[ info ] [ LANG ] D:\phpstudy2018\PHPTutorial\WWW\oscshop2\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'mobile',
+    1 => 'index',
+    2 => 'ajax_goods_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=luq0j1ucbsvmb9pmu493lvr5og; Hm_lvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1594286757; osc_jump_url=http%3A%2F%2Fwww.oscshop2.com%2Fmobile; Hm_lpvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1594627238; osc_mobile_user_info=think%3A%7B%22uid%22%3A%221%22%2C%22username%22%3A%221212121%22%2C%22nickname%22%3A%2211111%22%2C%22group_id%22%3A%222%22%7D',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.oscshop2.com/mobile',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'www.oscshop2.com',
+)
+[ info ] [ PARAM ] array (
+  '/mobile/index/ajax_goods_list/page/0' => '',
+  'page' => '0',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] osc\mobile\controller\Index->ajax_goods_list[ D:\phpstudy2018\PHPTutorial\WWW\oscshop2\oscshop\mobile\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-13T16:00:50+08:00 ] 127.0.0.1 GET www.oscshop2.com/mobile/user/index
+[运行时间：0.159827s] [吞吐率：6.26req/s] [内存消耗：2,257.80kb] [文件加载：53]
+[ info ] [ LANG ] D:\phpstudy2018\PHPTutorial\WWW\oscshop2\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'mobile',
+    1 => 'user',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=luq0j1ucbsvmb9pmu493lvr5og; Hm_lvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1594286757; osc_jump_url=http%3A%2F%2Fwww.oscshop2.com%2Fmobile; osc_mobile_user_info=think%3A%7B%22uid%22%3A%221%22%2C%22username%22%3A%221212121%22%2C%22nickname%22%3A%2211111%22%2C%22group_id%22%3A%222%22%7D; Hm_lpvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1594627248',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.oscshop2.com/mobile',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'www.oscshop2.com',
+)
+[ info ] [ PARAM ] array (
+  '/mobile/user/index' => '',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] osc\mobile\controller\User->index[ D:\phpstudy2018\PHPTutorial\WWW\oscshop2\oscshop\mobile\controller\User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] ./themes/default/mobile/user\index.html [ array (
+  0 => 'no_pay',
+  1 => 'paid',
+  2 => 'userinfo',
+  3 => 'SEO',
+  4 => 'flag',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-13T16:01:07+08:00 ] 127.0.0.1 GET www.oscshop2.com/mobile/user/index
+[运行时间：0.167827s] [吞吐率：5.96req/s] [内存消耗：2,131.86kb] [文件加载：51]
+[ info ] [ LANG ] D:\phpstudy2018\PHPTutorial\WWW\oscshop2\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'mobile',
+    1 => 'user',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=luq0j1ucbsvmb9pmu493lvr5og; Hm_lvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1594286757; osc_jump_url=http%3A%2F%2Fwww.oscshop2.com%2Fmobile; osc_mobile_user_info=think%3A%7B%22uid%22%3A%221%22%2C%22username%22%3A%221212121%22%2C%22nickname%22%3A%2211111%22%2C%22group_id%22%3A%222%22%7D; Hm_lpvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1594627251',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.oscshop2.com/mobile',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'www.oscshop2.com',
+)
+[ info ] [ PARAM ] array (
+  '/mobile/user/index' => '',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] osc\mobile\controller\User->index[ D:\phpstudy2018\PHPTutorial\WWW\oscshop2\oscshop\mobile\controller\User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] ./themes/default/mobile/user\index.html [ array (
+  0 => 'no_pay',
+  1 => 'paid',
+  2 => 'userinfo',
+  3 => 'SEO',
+  4 => 'flag',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-13T16:01:13+08:00 ] 127.0.0.1 GET www.oscshop2.com/
+[运行时间：0.094958s] [吞吐率：10.53req/s] [内存消耗：1,492.20kb] [文件加载：44]
+[ info ] [ LANG ] D:\phpstudy2018\PHPTutorial\WWW\oscshop2\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=luq0j1ucbsvmb9pmu493lvr5og; Hm_lvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1594286757; osc_jump_url=http%3A%2F%2Fwww.oscshop2.com%2Fmobile; osc_mobile_user_info=think%3A%7B%22uid%22%3A%221%22%2C%22username%22%3A%221212121%22%2C%22nickname%22%3A%2211111%22%2C%22group_id%22%3A%222%22%7D; Hm_lpvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1594627268',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'www.oscshop2.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] osc\index\controller\Index->index[ D:\phpstudy2018\PHPTutorial\WWW\oscshop2\oscshop\index\controller\Index.php ]
+[ info ] [ VIEW ] ./themes/default/index/index\index.html [ array (
+  0 => 'top_nav',
+  1 => 'empty',
+  2 => 'list',
+  3 => 'SEO',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File

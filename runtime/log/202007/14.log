@@ -1,0 +1,66 @@
+---------------------------------------------------------------
+[ 2020-07-14T14:12:38+08:00 ] 127.0.0.1 GET www.oscshop2.com/
+[运行时间：0.117081s] [吞吐率：8.54req/s] [内存消耗：1,492.08kb] [文件加载：44]
+[ info ] [ LANG ] D:\phpstudy2018\PHPTutorial\WWW\oscshop2\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=luq0j1ucbsvmb9pmu493lvr5og; Hm_lvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1594286757; osc_jump_url=http%3A%2F%2Fwww.oscshop2.com%2Fmobile; osc_mobile_user_info=think%3A%7B%22uid%22%3A%221%22%2C%22username%22%3A%221212121%22%2C%22nickname%22%3A%2211111%22%2C%22group_id%22%3A%222%22%7D; Hm_lpvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1594627274',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.oscshop2.com/admin/goods/index',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.oscshop2.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] osc\index\controller\Index->index[ D:\phpstudy2018\PHPTutorial\WWW\oscshop2\oscshop\index\controller\Index.php ]
+[ info ] [ VIEW ] ./themes/default/index/index\index.html [ array (
+  0 => 'top_nav',
+  1 => 'empty',
+  2 => 'list',
+  3 => 'SEO',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-14T14:12:39+08:00 ] 127.0.0.1 GET www.oscshop2.com/favicon.ico
+[运行时间：0.070910s] [吞吐率：14.10req/s] [内存消耗：1,115.74kb] [文件加载：30]
+[ info ] [ LANG ] D:\phpstudy2018\PHPTutorial\WWW\oscshop2\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'favicon',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=luq0j1ucbsvmb9pmu493lvr5og; Hm_lvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1594286757; osc_jump_url=http%3A%2F%2Fwww.oscshop2.com%2Fmobile; osc_mobile_user_info=think%3A%7B%22uid%22%3A%221%22%2C%22username%22%3A%221212121%22%2C%22nickname%22%3A%2211111%22%2C%22group_id%22%3A%222%22%7D; Hm_lpvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1594707159',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.oscshop2.com/',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.oscshop2.com',
+)
+[ info ] [ PARAM ] array (
+  '/favicon_ico' => '',
+)
+[ info ] [ LOG ] INIT File
